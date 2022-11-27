@@ -1,0 +1,30 @@
+body {
+   margin: 0 ;
+   font-family: sans-serif;
+   background: url("/images/music-bg.jpg");
+   background-size: cover;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+}
+#bands-list {
+    list-style: inside square;
+    font-size: 18px;
+    background-color: rgb(247, 245, 245);
+    width: 400px;
+    margin: auto;
+    padding: 10px 5px;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+}
+#bands-list li {
+    border-bottom: 1px solid #efefef;
+    padding: 10px;
+}
+#bands-list li:last-child {
+    border-bottom: 0;
+}
+a {
+    color: #ffc600;
+    text-decoration: none;
+}
